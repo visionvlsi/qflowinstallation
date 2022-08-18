@@ -75,6 +75,7 @@ echo "**************************************************************************
 git clone https://github.com/RTimothyEdwards/qrouter.git
 cd qrouter/
 sudo apt-get install tcl-dev tk-dev --assume-yes 
+sudo apt-get install -y libxt-dev --assume-yes
 ./configure 
 sudo make
 sudo make install
